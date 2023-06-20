@@ -1,4 +1,4 @@
-![Screenshot](ScreenShots/iphoneSE.png)
+![Screenshot](iphoneSE.png)
 
 # Product Landing Page
 - 👋 Hi, I’m @WilliamSpanfelner
@@ -16,7 +16,7 @@
 [CSS Flexbox](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_flexible_box_layout)
 [CSS Grid](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_grid_layout)
 
-![Screenshot](ScreenShots/ipad_l.png)
-![Screenshot](ScreenShots/ipad.png)
-![Screenshot](ScreenShots/iphone12mini.png)
-![Screenshot](ScreenShots/iphoneSE_footer.png)
+![Screenshot](ipad_l.png)
+![Screenshot](ipad.png)
+![Screenshot](iphone12mini.png)
+![Screenshot](iphoneSE_footer.png)
