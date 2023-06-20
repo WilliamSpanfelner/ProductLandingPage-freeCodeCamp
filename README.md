@@ -1,9 +1,9 @@
-![Screenshot](iphoneSE.png)
+![Screenshot](ScreenShots/iphoneSE.png)
 
 # Product Landing Page
 - 👋 Hi, I’m @WilliamSpanfelner
-- 👀 This Product Landing Page project is a component of the FreeCodeCamp Responsive Web Design Certification course.
-- 🌱 [Responsive Web Design Certification](https://www.freecodecamp.org/learn/responsive-web-design).  
+- 👀 This Product Landing Page project is a component of the FreeCodeCamp [Responsive Web Design Certification](https://www.freecodecamp.org/learn/responsive-web-design) course.
+- 🌱 Check out the [project specifications](https://www.freecodecamp.org/learn/responsive-web-design/responsive-web-design-projects/build-a-product-landing-page).  
 - 🧑‍💻 The Product Landing Page employs flex and grid to style various components. 
 - 💞️ I’m looking to collaborate on application development.
 - 📫 How to reach me...
@@ -16,7 +16,7 @@
 [CSS Flexbox](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_flexible_box_layout)
 [CSS Grid](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_grid_layout)
 
-![Screenshot](ipad_l.png)
-![Screenshot](ipad.png)
-![Screenshot](iphone12mini.png)
-![Screenshot](iphoneSE_footer.png)
+![Screenshot](ScreenShots/ipad_l.png)
+![Screenshot](ScreenShots/ipad.png)
+![Screenshot](ScreenShots/iphone12mini.png)
+![Screenshot](ScreenShots/iphoneSE_footer.png)
