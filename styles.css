@@ -24,6 +24,7 @@
 
   --inner-spacing: 1rem;
   --outer-spacing: 2rem;
+  --nav-bar-offset: 9.5rem;
 }
 
 * {
@@ -74,11 +75,7 @@ body {
 
 html {
     scroll-behavior: smooth;
-    scroll-padding-top: 150px;
-}
-
-li {
-    list-style: none;
+    scroll-padding-top: var(--nav-bar-offset);
 }
 
 /*header*/
@@ -195,7 +192,7 @@ background-image: linear-gradient(0deg, var(--mid_grey), var(--white), var(--mid
 }
 
 .container {
-    margin-top: 8.3rem;
+    margin-top: var(--nav-bar-offset);
 }
 
 .section-content {
