@@ -67,8 +67,9 @@ body {
     background-size: 100px 100px, 100px 100px, 50px 50px, 50px 50px;
 }
 
-h2 {
+.section-title, .price {
     text-align: center;
+    color: var(--dark_grey);
 }
 
 html {
@@ -88,6 +89,7 @@ header {
     top: 0;
     left: 0;
     right: 0;
+    z-index: 1;
 
     padding: 0.5rem var(--outer-spacing);
 }
@@ -112,6 +114,7 @@ header {
     display: flex;
     justify-content: space-between;
     flex: 100%;
+    list-style: none;
 }
 
 nav {
@@ -130,6 +133,7 @@ nav {
 .tsandcs > ul {
     display: flex;
     justify-content: space-between;
+    list-style: none;
 }
 
 .tsandcs > span {
@@ -214,12 +218,6 @@ background-image: linear-gradient(0deg, var(--mid_grey), var(--white), var(--mid
     stroke: currentcolor;
 }
 
-/*#contact > p,
-#services > p,
-#get-started > p {
-    text-align: justify;
-}*/
-
 #services .icon,
 #services .services-footer,
 #services .services-header,
@@ -234,10 +232,6 @@ background-image: linear-gradient(0deg, var(--mid_grey), var(--white), var(--mid
     align-items: center;
     justify-content: center;
     gap: var(--inner-spacing);
-}
-
-.services-header h2 {
-    color: var(--dark_grey);
 }
 
 .services-footer {
@@ -297,10 +291,11 @@ background-image: linear-gradient(0deg, var(--mid_grey), var(--white), var(--mid
     padding: var(--inner-spacing) var(--inner-spacing) var(--inner-spacing) ;
 }
 
-.product-body ol {
+.features {
     display: flex;
     flex-direction: column;
     line-height: 1.5;
+    list-style: none;
 }
 
 .level {
@@ -411,9 +406,6 @@ iframe {
 }
 
 #process {
-/*    display: flex;
-    justify-content: center;
-    align-items: center;*/
     position: relative;
     overflow: hidden;
     padding-top: 56.25%; /* 16:9 Aspect Ratio (divide 9 by 16 = 0.5625) */
@@ -424,61 +416,7 @@ iframe {
     position: relative;
 }
 
-/*start Delete this media query*/
-@media only screen and (min-width: 650px) {
-/*    iframe {
-        position: absolute;
-        top: 0;
-        left: 0;
-        bottom: 0;
-        right: 0;
-        width: 100%;
-        height: 100%;
-    }*/
-
-/*    #process {
-
-        position: relative;
-        overflow: hidden;
-        padding-top: 56.25%; */
-/* 16:9 Aspect Ratio (divide 9 by 16 = 0.5625) */
-
-/*        display: flex;
-        justify-content: center;
-        align-items: center;
-    }*/
-}
-@media only screen and (max-width: 700px) {
-/*    header {
-        flex-direction: column;
-    }*/
-
-/*    html {
-        scroll-padding-top: 140px;
-    }*/
-
-/*    nav {
-        min-width: 19rem;
-        width: 90%;
-        font-size: 0.9rem;
-    }*/
-
-/*    section {
-        min-width: 22rem;
-    }*/
-
-/*    .container {
-        margin-top: 10rem;
-    }*/
-}
-/*end Delete this media query*/
-
 @media only screen and (min-width: 700px) {
-/*    header {
-        flex-direction: row;
-        align-items: center;
-    }*/
-
     #nav-bar {
         flex-direction: row;
         align-items: center;
@@ -497,7 +435,6 @@ iframe {
 @media only screen and (min-width: 600px) {
     .footer-grid {
         flex-direction: row;
-        /*align-items: center;*/
         justify-content: space-between;
         padding: var(--inner-spacing) var(--outer-spacing);
     }
